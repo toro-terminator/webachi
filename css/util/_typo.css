@@ -1,0 +1,66 @@
+.article{
+  p{
+    @apply pb-2;
+  }
+}
+
+.text--center {
+  text-align: center;
+}
+
+.text--primary{
+  @apply text-primary;
+}
+
+.text--secondary{
+  @apply text-secondary;
+}
+
+.text--tertiary{
+  @apply text-tertiary;
+}
+
+.text--white{
+  @apply text-white;
+}
+
+.text--light{
+  @apply text-gray-100;
+}
+
+.text--dark{
+  @apply text-dark;
+}
+
+.text--darker{
+  @apply text-darker;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.text--xs{@apply text-xs;}
+.text--sm{@apply text-sm;}
+.text--xl{@apply text-xl;}
+.text--2xl{@apply text-2xl;}
+
+h1{
+  @apply text-4xl font-heading font-bold;
+}
+
+h2{
+  @apply text-3xl font-heading font-bold;
+}
+
+h3{
+  @apply text-3xl font-heading font-bold;
+}
+
+h4{
+  @apply text-xl font-heading;
+}

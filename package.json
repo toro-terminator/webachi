@@ -1,0 +1,45 @@
+{
+  "name": "Webachi_Framework",
+  "description": "2022 UI",
+  "version": "1.0.0",
+  "homepage": "https://github.com/rocketcitydigital/webachi",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gulpjs/gulp.git"
+  },
+  "author": "Wayne Roddy <wayne@rocketcitydigital.com>",
+  "tags": [],
+  "files": [],
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "cssnano": "^5.0.1",
+    "eslint": "^8.4.1",
+    "eslint-watch": "^8.0.0",
+    "postcss": "^8.4.4",
+    "postcss-cli": "^9.0.2",
+    "postcss-import": "^14.0.2",
+    "tailwindcss": "^3.0.0",
+    "uglify-js": "^3.14.1"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "not IE 11"
+  ],
+  "scripts": {
+    "watch-css": "postcss css/webachi.css --dir build/css --watch",
+    "watch-js": "esw -w js -o errors/log.js",
+    "build-js": "uglifyjs js/init_ui.js js/aria_nav.js js/format_phone.js -o build/js/webachi.min.js -c"
+  },
+  "engines": {
+    "node": ">= 0.9"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gulpjs/gulp/issues"
+  },
+  "main": "gulpfile.js",
+  "dependencies": {
+    "cssnano": "^5.0.12",
+    "postcss-use": "^3.0.0"
+  }
+}

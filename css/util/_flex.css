@@ -1,0 +1,36 @@
+.flex{
+  display: flex;
+}
+
+.flex--start {
+  @apply float-left;
+}
+
+.flex--end {
+  @apply float-right;
+}
+
+.flex--col{
+  flex-direction: column;
+}
+
+.flex--row{
+  flex-direction: row;
+}
+
+@media (min-width: 640px) {
+  .sm-flex-col{flex-direction: column !important;}
+  .sm-flex-row{flex-direction: row !important;}
+}
+
+@media (min-width: 768px) {
+  .md\:flex {@apply flex;}
+  .md-flex-end {@apply float-right;}
+  .md-flex-col{flex-direction: column !important;}
+  .md-flex-row{flex-direction: row !important;}
+}
+
+@media (min-width: 1024px) {
+  .lg-flex-col{flex-direction: column !important;}
+  .lg-flex-row{flex-direction: row !important;}
+}

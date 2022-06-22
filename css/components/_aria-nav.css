@@ -1,0 +1,42 @@
+nav {
+	@apply w-auto pt-2;
+
+  a {
+    @apply text-sm;
+  }
+
+  > ul{
+  	@apply flex;
+
+    > li{
+    	@apply p-2 relative hover:bg-light;
+
+      > a{
+      	@apply p-1 text-primary transition-all duration-300 hover:text-secondary;
+      }
+
+      button svg{
+        @apply inline-block mr-1 text-gray-400;
+      }
+    }
+  }
+
+}
+
+
+/* Open Sub Nav */
+nav > ul li:hover > ul,nav ul li ul.open{
+  @apply visible;
+}
+
+/* Sub Nav */
+nav ul li ul{
+  @apply hidden w-full invisible bg-light md:w-[210px] block absolute p-0;
+  z-index: 9999;
+  top:100%;
+  left:0;
+
+  li a{
+  	@apply block py-2 px-3 text-dark border-b border-slate/20 hover:text-primary hover:bg-slate;
+  }
+}

@@ -1,0 +1,8 @@
+header{
+  @apply w-full;
+}
+
+header *{
+  @apply focus:ring-primary focus:ring-1 ring-inset;
+  outline:none;
+}
