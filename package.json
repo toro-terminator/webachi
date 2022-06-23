@@ -28,7 +28,7 @@
   "scripts": {
     "watch-css": "postcss css/webachi.css --dir build/css --watch",
     "watch-js": "esw -w js -o errors/log.js",
-    "build-js": "uglifyjs js/init_ui.js js/aria_nav.js js/format_phone.js -o build/js/webachi.min.js -c"
+    "build-js": "uglifyjs js/init_ui.js js/aria_nav.js js/mobile_open.js js/mobile_close.js js/mobile_toggle.js js/format_phone.js -o build/js/webachi.min.js -c"
   },
   "engines": {
     "node": ">= 0.9"

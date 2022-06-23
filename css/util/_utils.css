@@ -44,6 +44,7 @@ iframe{max-width: 100%;}
 @media (min-width: 768px) {
    .container {max-width: 100%;}
    .md-hidden {display: none;}
+   .md-w-full {width: 100%;}
 }
 
 @media (min-width: 1024px) {

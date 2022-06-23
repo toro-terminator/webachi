@@ -25,16 +25,21 @@
       <div class="flex--start">
         <h2 class="p-2">Webachi</h2>
       </div>
-      <div class="w-full">
+      <div class="md-w-full">
 
         <!-- Aria-Nav -->
-        <nav role="navigation" id="navigation" class="flex--end">
+        <nav role="navigation" id="navigation">
+
+          <div id="mobileLogo">
+            <a href="index.html" class="block"><img src="../assets/img/Webachi-chick-300.png" alt="" width="50px"></a>
+          </div>
+
           <ul role="menu" aria-label="Main" aria-hidden="false" id="mainMenu">
 
             <li role="menuitem" aria-haspopup="true" class="has-sub-menu">
               <a href="#" class="aria-menu-parent menu-parent">Base</a>
               <button class="mobile-toggle" tabindex="-1">
-                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" viewBox="0 0 16 16">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16">
                   <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"></path>
                 </svg>
               </button>
@@ -66,7 +71,7 @@
             <li role="menuitem" aria-haspopup="true" class="has-sub-menu">
               <a href="#" class="aria-menu-parent menu-parent">Components</a>
               <button class="mobile-toggle" tabindex="-1">
-                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" viewBox="0 0 16 16">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16">
                   <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"></path>
                 </svg>
               </button>
@@ -82,12 +87,36 @@
             </li>
 
           </ul>
+
+          <!--Mobile-Close-->
+
+          <button type="button" id="mobileClose">
+            <span class="sr-only">Close menu</span>
+            <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+            </svg>
+          </button>
+
+          <!--/Mobile-Close-->
+
         </nav>
         <!-- /Aria-Nav -->
 
       </div>
     </div>
   </div>
+
+  <!--Mobile-Open-->
+
+  <button type="button" id="mobileOpen" aria-expanded="false">
+    <span class="sr-only">Open menu</span>
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+    </svg>
+  </button>
+
+  <!--/Mobile-Open-->
+
 </header>
 
 <main role="main" id="main" class="py-12" tabindex="0">

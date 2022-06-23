@@ -1,5 +1,5 @@
 header{
-  @apply w-full;
+  @apply fixed top-0 z-[999] md:relative w-full;
 }
 
 header *{

@@ -1,28 +1,26 @@
 nav {
-	@apply w-auto pt-2;
 
   a {
-    @apply text-sm;
+    @apply md:text-sm;
   }
 
   > ul{
-  	@apply flex;
+  	@apply md:flex;
 
     > li{
-    	@apply p-2 relative hover:bg-light;
+    	@apply p-2 relative md:hover:bg-light;
 
       > a{
-      	@apply p-1 text-primary transition-all duration-300 hover:text-secondary;
+      	@apply p-1 text-primary transition-all duration-300 md:hover:text-secondary;
       }
 
       button svg{
-        @apply inline-block mr-1 text-gray-400;
+        @apply inline-block mr-1 text-gray-400 w-3;
       }
     }
   }
 
 }
-
 
 /* Open Sub Nav */
 nav > ul li:hover > ul,nav ul li ul.open{
@@ -31,8 +29,8 @@ nav > ul li:hover > ul,nav ul li ul.open{
 
 /* Sub Nav */
 nav ul li ul{
-  @apply hidden w-full invisible bg-light md:w-[210px] block absolute p-0;
-  z-index: 9999;
+  @apply hidden w-full invisible p-0
+	md:absolute md:w-[210px] md:z-[999] md:block md:bg-light;
   top:100%;
   left:0;
 
