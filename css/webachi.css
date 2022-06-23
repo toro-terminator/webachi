@@ -16,6 +16,7 @@
 @import 'components/_columns.css';
 @import 'components/_table.css';
 @import 'components/_cards.css';
+@import 'components/_social.css';
 
 .bg--white{
   background-color: #FFF;
