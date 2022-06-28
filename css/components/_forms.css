@@ -3,7 +3,7 @@
 }
 
 .form-label{
-  @apply inline-block px-1 pb-2 text-sm text-primary font-bold;
+  @apply inline-block px-1 pb-2 text-sm font-bold;
 }
 
 .form-control{

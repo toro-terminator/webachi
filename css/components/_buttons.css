@@ -62,7 +62,7 @@
   @apply bg-transparent border border-secondary text-secondary;
 
   &:hover,&:focus{
-    @apply bg-secondary-hover border-secondary-hover text-white;
+    @apply bg-secondary-hover border-secondary-hover text-black/80;
   }
   &:focus{
     @apply outline-secondary;
@@ -85,7 +85,7 @@
   @apply bg-transparent border border-tertiary text-tertiary;
 
   &:hover,&:focus{
-    @apply bg-tertiary-hover border-tertiary-hover text-white;
+    @apply bg-tertiary-hover border-tertiary-hover text-black/80;
   }
   &:focus{
     @apply outline-tertiary;

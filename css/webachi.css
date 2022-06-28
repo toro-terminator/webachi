@@ -20,6 +20,7 @@
 @import 'components/_social.css';
 @import 'components/_carousel.css';
 @import 'components/_accordions.css';
+@import 'components/_blog.css';
 
 .bg--white{
   background-color: #FFF;

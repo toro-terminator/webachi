@@ -11,7 +11,7 @@ nav {
     	@apply p-2 relative md:hover:bg-light;
 
       > a{
-      	@apply p-1 text-primary transition-all duration-300 md:hover:text-secondary;
+      	@apply p-1 text-primary transition-all duration-300 md:hover:text-primary-hover;
       }
 
       button svg{

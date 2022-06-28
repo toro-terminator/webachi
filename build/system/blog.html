@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Webachi - Cards</title>
+  <title>Webachi - Blog</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Open+Sans:wght@300;500;700&display=swap" rel="stylesheet">
@@ -130,62 +130,41 @@
 
   <main role="main" id="main" class="py-12" tabindex="0">
     <div class="container">
-      <h1 class="mb-4">Cards</h1>
+      <h1 class="mb-8">Blog</h1>
 
-      <section class="card card--row mb-8 mt-2" aria-label="Card Title">
-        <div class="card--pinned">
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-            <path fill-rule="evenodd"
-              d="M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999zm2.493 8.574a.5.5 0 0 1-.411.575c-.712.118-1.28.295-1.655.493a1.319 1.319 0 0 0-.37.265.301.301 0 0 0-.057.09V14l.002.008a.147.147 0 0 0 .016.033.617.617 0 0 0 .145.15c.165.13.435.27.813.395.751.25 1.82.414 3.024.414s2.273-.163 3.024-.414c.378-.126.648-.265.813-.395a.619.619 0 0 0 .146-.15.148.148 0 0 0 .015-.033L12 14v-.004a.301.301 0 0 0-.057-.09 1.318 1.318 0 0 0-.37-.264c-.376-.198-.943-.375-1.655-.493a.5.5 0 1 1 .164-.986c.77.127 1.452.328 1.957.594C12.5 13 13 13.4 13 14c0 .426-.26.752-.544.977-.29.228-.68.413-1.116.558-.878.293-2.059.465-3.34.465-1.281 0-2.462-.172-3.34-.465-.436-.145-.826-.33-1.116-.558C3.26 14.752 3 14.426 3 14c0-.599.5-1 .961-1.243.505-.266 1.187-.467 1.957-.594a.5.5 0 0 1 .575.411z">
-            </path>
-          </svg>
-          <span>Featured Post</span>
-        </div>
-        <img src="../../assets/img/mesh-bg.jpg" class="card--img_left" alt="">
-        <div class="card--body">
-          <small class="card--body_date">Fri Apr 15, 2022</small>
-          <h2 class="card--body_title">
-            <a href="#">Featured Post</a>
-          </h2>
-          <p class="card--body_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-        </div>
-      </section>
+      <ul class="pageNav clearfix"><li><a class="active" href="news/">1</a></li>
+      <li><a href="news/?page=2">2</a></li>
+      <li><a href="news/?page=3">3</a></li>
+      <li><a href="news/?page=4">4</a></li>
+      <li><a href="news/?page=5">5</a></li>
+      <li><a href="news/?page=6">6</a></li>
+      <li class="control"><a href="news/?page=2">&gt;&gt;</a></li>
+      <li class="control"><a href="news/?page=20">Last</a></li>
+      </ul>
 
-      <div class="grid md:grid-cols-3 gap-4">
+      <hr class="mb-4 mt-4">
 
-        <section class="card" aria-label="Card Title">
-          <img src="../../assets/img/mesh-bg.jpg" class="card--img_top" alt="">
-          <div class="card--body">
-            <small class="card--body_date">Fri Apr 15, 2022</small>
-            <h2 class="card--body_title">
-              <a href="#">Card Title</a>
-            </h2>
-            <p class="card--body_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-          </div>
-        </section>
-
-        <section class="card" aria-label="Card Title">
-          <img src="../../assets/img/mesh-bg.jpg" class="card--img_top" alt="">
-          <div class="card--body">
-            <small class="card--body_date">Fri Apr 15, 2022</small>
-            <h2 class="card--body_title">
-              <a href="#">Card Title</a>
-            </h2>
-            <p class="card--body_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-          </div>
-        </section>
-
-        <section class="card" aria-label="Card Title">
-          <img src="../../assets/img/mesh-bg.jpg" class="card--img_top" alt="">
-          <div class="card--body">
-            <small class="card--body_date">Fri Apr 15, 2022</small>
-            <h2 class="card--body_title">
-              <a href="#">Card Title</a>
-            </h2>
-            <p class="card--body_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-          </div>
-        </section>
-
+      <div class="tags flex flex-row gap-4 flex-wrap">
+        <a href="tagged/category/awards-and-recognition/" class="tag" >Awards and Recognition</a>
+        <a href="tagged/category/best-place-to-work/" class="tag" >Best Place to Work</a>
+        <a href="tagged/category/community/" class="tag" >Community</a>
+        <a href="tagged/category/company-culture/" class="tag" >Company Culture</a>
+        <a href="tagged/category/company-growth/" class="tag" >Company Growth</a>
+        <a href="tagged/category/contracts/" class="tag" >Contracts</a>
+        <a href="tagged/category/customers/" class="tag" >Customers</a>
+        <a href="tagged/category/esop/" class="tag" >ESOP</a>
+        <a href="tagged/category/ethics/" class="tag" >Ethics</a>
+        <a href="tagged/category/growth/" class="tag" >Growth</a>
+        <a href="tagged/category/gsa/" class="tag" >GSA</a>
+        <a href="tagged/category/leadership/" class="tag" >Leadership</a>
+        <a href="tagged/category/missile-defense-agency/" class="tag" >Missile Defense Agency</a>
+        <a href="tagged/category/oasis/" class="tag" >OASIS</a>
+        <a href="tagged/category/teams/" class="tag" >TEAMS</a>
+        <a href="tagged/category/technical-excellence/" class="tag" >Technical Excellence</a>
+        <a href="tagged/category/torch-helps/" class="tag" >Torch Helps</a>
+        <a href="tagged/category/u-s-air-force/" class="tag" >U.S. Air Force</a>
+        <a href="tagged/category/u-s-army/" class="tag" >U.S. Army</a>
+        <a href="tagged/category/u-s-navy/" class="tag" >U.S. Navy</a>
       </div>
 
 
