@@ -4,6 +4,7 @@
 @import 'util/_flex.css';
 @import 'util/_padding.css';
 @import 'util/_typo.css';
+@import 'util/_animations.css';
 @import '_body.css';
 @import '_header.css';
 @import '_footer.css';
@@ -17,6 +18,7 @@
 @import 'components/_table.css';
 @import 'components/_cards.css';
 @import 'components/_social.css';
+@import 'components/_carousel.css';
 
 .bg--white{
   background-color: #FFF;

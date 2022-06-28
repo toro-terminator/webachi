@@ -8,7 +8,7 @@
 
 .card--body {
   flex: 1 1 auto;
-  @apply p-2 bg-white rounded-b-md;
+  @apply p-2 bg-white rounded-b-md leading-relaxed text-sm;
 }
 .card--body_text {margin-bottom: 1rem;}
 

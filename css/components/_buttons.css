@@ -48,10 +48,10 @@
 
 
 .btn--secondary{
-  @apply bg-secondary text-white;
+  @apply bg-secondary text-black/60;
 
   &:hover,&:focus{
-    @apply bg-secondary-hover text-white;
+    @apply bg-secondary-hover text-black/80;
   }
   &:focus{
     @apply outline-secondary;
@@ -71,10 +71,10 @@
 
 
 .btn--tertiary{
-  @apply bg-tertiary text-white;
+  @apply bg-tertiary text-black/60;
 
   &:hover,&:focus{
-    @apply bg-tertiary-hover text-white;
+    @apply bg-tertiary-hover text-black/80;
   }
   &:focus{
     @apply outline-tertiary;
