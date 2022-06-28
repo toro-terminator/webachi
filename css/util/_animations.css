@@ -8,8 +8,8 @@ from {opacity: 1;}
 to   {opacity: 0;}
 }
 
-.fadeIn{animation-name: fadeIn;animation-duration: .4s; display:block !important;}
-.fadeOut{animation-name: fadeOut;animation-duration: .4s; display:block !important;}
+.fadeIn{animation-name: fadeIn;animation-duration: .8s; display:block !important;}
+.fadeOut{animation-name: fadeOut;animation-duration: .8s; display:block !important;}
 
 
 @keyframes bounceInRight {

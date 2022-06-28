@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Webachi - Forms</title>
+  <title>Webachi - Hero</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Open+Sans:wght@300;500;700&display=swap" rel="stylesheet">
@@ -131,42 +131,37 @@
 
   </header>
 
-  <main role="main" id="main" class="py-12" tabindex="0">
-    <div class="container bg--white py-4">
-      <h1 class="mb-8">Forms</h1>
+  <main role="main" id="main" class="pb-12" tabindex="0">
+    <section class="hero" style="background-image:url('../../assets/img/mesh-bg.jpg');">
+      <div class="container">
+        <h1 class="text--white hero--title">Hero Title Here</h1>
+      </div>
+    </section>
 
-      <form action="" class="narrow-form">
-        <div class="mb-3">
-          <label for="company" class="form-label">Company</label>
-          <input type="text" name="company" id="company" class="form-control" maxlength="50" required>
-        </div>
+    <br><br>
 
-        <div class="mb-3">
-          <label for="name" class="form-label">Full Name</label>
-          <input type="text" name="name" id="name" class="form-control" maxlength="50" required>
-        </div>
-
-        <div class="mb-3">
-          <label for="phone" class="form-label">Phone</label>
-          <input type="text" name="phone" id="phone" class="form-control format-phone" maxlength="14" required>
-        </div>
-
-        <div class="mb-3">
-          <label for="email" class="form-label">Email</label>
-          <input type="text" name="email" id="email" class="form-control" maxlength="80" required>
-        </div>
-
-        <div class="mb-3">
-          <label for="message" class="form-label">Message</label>
-          <textarea maxlength="250" rows="5" class="form-control" id="message" name="message" required></textarea>
-        </div>
-
-        <div class="clearfix">
-          <div class="py-2"><button type="submit" class="btn btn--primary flex--end">SEND</button></div>
-        </div>
-      </form>
-
+    <div class="carousel carousel--slider bg--dark" data-animation="fadeIn" aria-live="assertive" tabindex="0">
+      <p class="summary sr-only" id="carousel-0">Showing Slide <span class="index">1</span> of <span class="total"></span></p>
+      <button class="prev" aria-describedby="carousel-0">
+        <span class="sr-only">Previous Slide for Hero Slider</span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+          <path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd" />
+        </svg>
+      </button>
+      <button class="next" aria-describedby="carousel-0">
+        <span class="sr-only">Next Slide for Hero Slider</span>
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
+          <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+        </svg>
+      </button>
+      <figure class="c-item active hero" style="background-image:url('../../assets/img/mesh-bg.jpg');">
+        <div class="container"><h1 class="text--white hero--title">Hero Title Here</h1></div>
+      </figure>
+      <figure class="c-item hero" style="background-image:url('../../assets/img/mesh-bg.jpg');background-position-y: bottom;">
+        <div class="container"><h1 class="text--white hero--title">Second Hero Title Here</h1></div>
+      </figure>
     </div>
+
   </main>
 
   <footer role="complementary" id="footer" tabindex="0">

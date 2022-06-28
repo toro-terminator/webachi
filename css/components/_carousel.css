@@ -71,3 +71,18 @@ Rules:
     }
   }
 }
+
+.carousel--slider{
+  .hero .hero--title{
+    @apply px-8;
+  }
+  button{
+    @apply top-[48%] text-white/50 hover:bg-black/30 hover:text-white/80;
+    &.next{
+      @apply right-1 md:right-3 lg:right-5;
+    }
+    &.prev{
+      @apply left-1 md:left-3 lg:left-5;
+    }
+  }
+}
