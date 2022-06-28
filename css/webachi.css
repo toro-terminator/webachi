@@ -19,6 +19,7 @@
 @import 'components/_cards.css';
 @import 'components/_social.css';
 @import 'components/_carousel.css';
+@import 'components/_accordions.css';
 
 .bg--white{
   background-color: #FFF;
