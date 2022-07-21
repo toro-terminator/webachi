@@ -1,7 +1,5 @@
 # Webachi Design System
 
-> Web Components are only used for this layout system documentation
-
  - Web Template names need to match JS and CSS file names
 
 ---

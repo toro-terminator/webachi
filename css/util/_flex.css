@@ -18,13 +18,21 @@
   flex-direction: row;
 }
 
+.flex--center{
+  @apply justify-center;
+}
+
+.align--center{
+  align-items: center;
+}
+
 @media (min-width: 640px) {
   .sm-flex-col{flex-direction: column !important;}
   .sm-flex-row{flex-direction: row !important;}
 }
 
 @media (min-width: 768px) {
-  .md\:flex {@apply flex;}
+  .md-flex {@apply flex;}
   .md-flex-end {@apply float-right;}
   .md-flex-col{flex-direction: column !important;}
   .md-flex-row{flex-direction: row !important;}
