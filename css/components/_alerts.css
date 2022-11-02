@@ -21,7 +21,7 @@
 }
 
 .alert--success{
-  @apply bg-success text-success-border border-success-border;
+  @apply bg-success text-[#496c4e] border-success-border;
 }
 .text--success{
   @apply text-success-border;
