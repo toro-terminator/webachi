@@ -42,18 +42,23 @@
   @apply text-darker;
 }
 
-.uppercase {
+.text--uppercase {
   text-transform: uppercase;
 }
 
-.underline {
+.text--underline {
   text-decoration: underline;
+}
+
+.text--narrow{
+  @apply mx-auto px-8 md:w-[70%];
 }
 
 .text--xs{@apply text-xs;}
 .text--sm{@apply text-sm;}
 .text--xl{@apply text-xl;}
 .text--2xl{@apply text-2xl;}
+.text--3xl{@apply text-3xl;}
 
 h1{
   @apply text-4xl font-heading font-bold;

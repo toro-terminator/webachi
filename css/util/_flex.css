@@ -22,6 +22,10 @@
   @apply justify-center;
 }
 
+.flex--between{
+  @apply justify-between;
+}
+
 .align--center{
   align-items: center;
 }

@@ -4,7 +4,7 @@ nav {
 	md:relative md:left-0 md:w-auto md:h-auto md:pt-2 md:bg-transparent md:float-right;
 
 	&.active{
-		@apply left-0;
+		@apply overflow-y-scroll left-0;
     ul{
       @apply py-2;
       li{
