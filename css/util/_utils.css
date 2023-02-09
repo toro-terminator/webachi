@@ -10,7 +10,7 @@ iframe{max-width: 100%;}
 }
 
 .hidden {
-  display: none !important;
+  display: none;
 }
 
 .container {

@@ -1,3 +1,4 @@
+button svg{pointer-events: none;}
 .btn svg{pointer-events: none; vertical-align: middle; display: inline-block;}
 .btn{
   @apply bg-primary rounded py-3 px-4 text-center inline-block;

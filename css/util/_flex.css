@@ -36,6 +36,9 @@
 }
 
 @media (min-width: 768px) {
+  .md-flip--order{
+    >div:first-of-type{order:2;}
+  }
   .md-flex {@apply flex;}
   .md-flex-end {@apply float-right;}
   .md-flex-col{flex-direction: column !important;}

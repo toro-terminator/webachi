@@ -68,9 +68,9 @@ nav.active .mobile-toggle{
   svg{
     pointer-events: none;
     width:18px;
+		margin-right:0;
   }
   &.up{
     transform: rotate(180deg);
-    svg{margin-left: 4px;}
   }
 }
