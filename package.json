@@ -1,13 +1,13 @@
 {
   "name": "Webachi_Framework",
-  "description": "2022 UI",
+  "description": "2023 UI",
   "version": "1.0.0",
   "homepage": "https://github.com/rocketcitydigital/webachi",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gulpjs/gulp.git"
   },
-  "author": "Wayne Roddy <wayne@rocketcitydigital.com>",
+  "author": "Wayne Roddy <wayne@alphatoro.com>",
   "tags": [],
   "files": [],
   "devDependencies": {
@@ -26,6 +26,7 @@
     "not IE 11"
   ],
   "scripts": {
+    "build-webp": "node build/process_images/to_webp.js",
     "watch-css": "postcss css/webachi.css --dir build/css --watch",
     "watch-js": "esw -w js -o errors/log.js",
     "build-js": "uglifyjs js/init_ui.js js/aria_nav.js js/mobile_open.js js/mobile_close.js js/mobile_toggle.js js/format_phone.js js/details_accordion.js js/carousel.js -o build/js/webachi.min.js -c"
@@ -40,6 +41,8 @@
   "main": "gulpfile.js",
   "dependencies": {
     "cssnano": "^5.0.12",
-    "postcss-use": "^3.0.0"
+    "postcss-sort-media-queries": "^4.3.0",
+    "postcss-use": "^3.0.0",
+    "sharp": "^0.31.3"
   }
 }

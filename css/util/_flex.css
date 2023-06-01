@@ -26,6 +26,11 @@
   @apply justify-between;
 }
 
+.flex--vertical{
+  @apply flex flex-col justify-center;height: inherit;
+}
+
+
 .align--center{
   align-items: center;
 }
