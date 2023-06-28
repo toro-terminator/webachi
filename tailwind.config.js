@@ -32,8 +32,8 @@ module.exports = {
         'warning-border': '#a65b1a'
       },
       fontFamily: {
-        body: ['Open Sans', 'serif'],
-        heading: ['Pacifico', 'serif']
+        body: ['Open Sans', 'sans-serif'],
+        heading: ['Pacifico', 'sans-serif']
       },
     },
   },

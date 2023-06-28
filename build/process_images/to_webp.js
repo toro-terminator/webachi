@@ -5,17 +5,18 @@ async function processImages() {
   //const metadata = await sharp("assets/img/m-icon.png").metadata();
   //console.log(metadata);
 
-  await sharp('assets/img/wrench-banner-3000.jpg')
+
+  await sharp('assets/img/how-to-unload-1400.png')
     //.webp({ lossless: true })
-    //.resize({ width: 800 })
-    .webp({ quality: 90 })
-    .toFile('assets/img/wrench-banner-3000.webp');
+    .resize({ width: 1200 })
+    .webp({ quality: 85 })
+    .toFile('assets/img/how-to-unload-1200.webp');
 
+   /*
 
-/*
-    const file = 'assets/img/layer-22-3000.jpg';
-    const rename = 'assets/img/layer-22';
-    const quality = 90;
+    const file = 'assets/img/how-to-unload-1400.png';
+    const rename = 'assets/img/how-to-unload-1400';
+    const quality = 80;
 
     await sharp(file)
       .webp({ quality: quality })
@@ -30,8 +31,8 @@ async function processImages() {
       .resize({ width: 1000 })
       .webp({ quality: quality })
       .toFile(rename+'-1000.webp');
-  */
 
+      */
 }
 
 processImages();
