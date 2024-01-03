@@ -1,5 +1,9 @@
 iframe{max-width: 100%;}
 
+.relative{position:relative;}
+.absolute{position:absolute;}
+.z-1{z-index:1;}
+
 .row, .clearfix {
   @apply flow-root;
 }
@@ -44,11 +48,13 @@ iframe{max-width: 100%;}
 @media (min-width: 768px) {
    .container {max-width: 100%;}
    .md-hidden {display: none;}
+   .md-block {display: block;}
    .md-w-full {width: 100%;}
 }
 
 @media (min-width: 1024px) {
   .lg-hidden {display: none;}
+  .lg-block {display: block;}
   .container {max-width: 1010px;}
 }
 

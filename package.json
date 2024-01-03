@@ -1,8 +1,8 @@
 {
-  "name": "Webachi_Framework",
+  "name": "webachiframework",
   "description": "2023 UI",
   "version": "1.0.0",
-  "homepage": "https://github.com/rocketcitydigital/webachi",
+  "homepage": "https://github.com/alpha-toro/webachi",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gulpjs/gulp.git"
